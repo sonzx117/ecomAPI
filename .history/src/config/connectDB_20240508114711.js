@@ -5,7 +5,7 @@ const sequelize = new Sequelize('ecom', 'root', '234567891', {
   host: 'localhost',
   dialect: 'mysql',
   logging: false,
-  port: 3306, 
+  port: 5043, 
   dialectOptions: { 
       socketPath: "/opt/lampp/var/mysql/mysql.sock"
   },
